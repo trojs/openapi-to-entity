@@ -1,0 +1,43 @@
+{
+  "all": true,
+  "include": [
+    "src/**/*.js"
+  ],
+  "exclude": [
+    "**/*.test.js",
+    "**/*.spec.js",
+    "**/*.unit.js",
+    "**/*.feature.js",
+    "**/*.e2e.js",
+    "**/__fixtures__/**",
+    "**/__mocks__/**",
+    "**/__migrations__/**",
+    "**/__seeding__/**",
+    "**/__interface__/**"
+  ],
+  "reporter": [
+    "text",
+    "text-summary",
+    "lcov",
+    "clover"
+  ],
+  "check-coverage": true,
+  "watermarks": {
+    "lines": [
+      80,
+      95
+    ],
+    "functions": [
+      80,
+      95
+    ],
+    "branches": [
+      80,
+      95
+    ],
+    "statements": [
+      80,
+      95
+    ]
+  }
+}

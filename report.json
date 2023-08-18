@@ -1,0 +1,18 @@
+{
+  "files": [
+    {
+      "type": "file",
+      "file": "/Users/pieter.wigbolduspon.com/projects/storage/src/db.js",
+      "errors": [
+        {
+          "type": "error",
+          "file": "/Users/pieter.wigbolduspon.com/projects/storage/src/db.js",
+          "line": "46",
+          "column": "5",
+          "message": "Unexpected console statement. (no-console)",
+          "rule": "warning"
+        }
+      ]
+    }
+  ]
+}
