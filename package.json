@@ -1,6 +1,6 @@
 {
   "name": "@hckrnews/openapi-to-entity",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Convert Openapi schema to entity fields",
   "files": [
     "src/index.js"
@@ -43,7 +43,7 @@
     "eslint-plugin-jsdoc": "^46.0.0",
     "eslint-plugin-n": "^16.0.0",
     "eslint-plugin-promise": "^6.0.1",
-    "eslint-plugin-sonarjs": "^0.21.0",
+    "eslint-plugin-sonarjs": "^0.23.0",
     "jscpd": "^3.5.3"
   },
   "type": "module",
