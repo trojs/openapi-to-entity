@@ -1,6 +1,6 @@
 {
     "name": "@hckrnews/openapi-to-entity",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "description": "Convert Openapi schema to entity fields",
     "files": [
         "src/index.js"
