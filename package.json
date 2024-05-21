@@ -1,6 +1,6 @@
 {
-    "name": "@hckrnews/openapi-to-entity",
-    "version": "0.2.3",
+    "name": "@trojs/openapi-to-entity",
+    "version": "0.3.0",
     "description": "Convert Openapi schema to entity fields",
     "files": [
         "src/index.js"
@@ -26,7 +26,7 @@
     ],
     "author": {
         "name": "Pieter Wigboldus",
-        "url": "https://hckr.news/"
+        "url": "https://trojs.org/"
     },
     "license": "MIT",
     "bugs": {
@@ -34,7 +34,7 @@
     },
     "homepage": "https://github.com/hckrnews/openapi-to-entity#readme",
     "devDependencies": {
-        "@hckrnews/error": "^2.0.0",
+        "@trojs/error": "^3.0.0",
         "@hckrnews/eslint-config": "^3.0.0",
         "c8": "^9.0.0",
         "eslint": "^8.47.0",
