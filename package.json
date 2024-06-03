@@ -1,6 +1,6 @@
 {
     "name": "@trojs/openapi-to-entity",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "description": "Convert Openapi schema to entity fields",
     "files": [
         "src/index.js"
@@ -16,7 +16,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/hckrnews/openapi-to-entity.git"
+        "url": "git+https://github.com/trojs/openapi-to-entity.git"
     },
     "keywords": [
         "openapi",
@@ -30,9 +30,9 @@
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/hckrnews/openapi-to-entity/issues"
+        "url": "https://github.com/trojs/openapi-to-entity/issues"
     },
-    "homepage": "https://github.com/hckrnews/openapi-to-entity#readme",
+    "homepage": "https://github.com/trojs/openapi-to-entity#readme",
     "devDependencies": {
         "@trojs/error": "^3.0.0",
         "@hckrnews/eslint-config": "^3.0.0",
@@ -44,7 +44,7 @@
         "eslint-plugin-n": "^16.6.2",
         "eslint-plugin-promise": "^6.0.1",
         "eslint-plugin-sonarjs": "^0.24.0",
-        "jscpd": "^3.5.3"
+        "jscpd": "^4.0.0"
     },
     "type": "module",
     "engines": {
