@@ -6,7 +6,7 @@
     },
     "root": true,
     "extends": [
-        "standard",
+        "@hckrnews/eslint-config",
         "plugin:import/recommended",
         "plugin:n/recommended",
         "plugin:jsdoc/recommended",
@@ -33,6 +33,13 @@
         "webextensions": true
     },
     "rules": {
+        "import/extensions": [
+            "error",
+            "ignorePackages",
+            {
+                "js": "always"
+            }
+        ],
         "block-scoped-var": "error",
         "complexity": [
             "error",
@@ -56,6 +63,12 @@
         "max-statements": [
             "warn",
             20
+        ],
+        "max-len": [
+            "warn",
+            {
+                "code": 120
+            }
         ],
         "linebreak-style": [
             "warn",
