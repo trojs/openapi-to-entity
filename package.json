@@ -1,6 +1,6 @@
 {
     "name": "@trojs/openapi-to-entity",
-    "version": "0.3.4",
+    "version": "0.3.5",
     "description": "Convert Openapi schema to entity fields",
     "files": [
         "src/index.js"
