@@ -10,15 +10,15 @@
  */
 const findType = ({ type }) => {
     if (type === 'number') {
-        return 'int';
+        return 'int'
     }
 
     if (type === 'object') {
-        return 'json';
+        return 'json'
     }
 
-    return 'varchar';
-};
+    return 'varchar'
+}
 
 /**
  * OpenAPI to Entity
@@ -30,8 +30,8 @@ export default ({ openapiSchema }) =>
     Object.fromEntries(
         Object.entries(openapiSchema.properties).map(([key, value]) => {
             const newValue = {
-                type: findType({ type: value.type }),
-            };
-            return [key, newValue];
+                type: findType({ type: value.type })
+            }
+            return [key, newValue]
         })
-    );
+    )
